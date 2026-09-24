@@ -1,23 +1,23 @@
-# Fase 1: catálogo verificable
+# Phase 1: Verifiable asset catalog
 
-El encargo autoriza implementar y ejecutar esta fase completa. Se implementa en esta sesión, sin interfaz ni exportador GLB.
+The first phase builds and runs a complete inspection workflow without creating an editor or a GLB exporter.
 
-## Contrato
+## Contract
 
-Leer recursivamente el proyecto y las tres fuentes configurables, sin escribir en originales. Registrar cada OBJ incluso si es excluido o un LOD secundario. Los archivos generados viven en src/generated y reports. Rutas mediante identificador de fuente y ruta relativa; configuración con ~ portable.
+The scanner recursively reads the repository and all three configurable sources without writing to original files. Every OBJ is registered, including excluded objects and secondary LODs. Generated files live in `src/generated` and `reports`. Paths use a portable source identifier and a relative path; `~` is supported in configuration.
 
-Separar categoría inferida, geometría válida, candidatura de catálogo y compatibilidad. Una categoría es una hipótesis apoyada por nombres y métricas, nunca identificación anatómica garantizada. Unknown, efectos, entorno, props y colliders quedan fuera. Un OBJ no contiene pesos/esqueleto utilizables para animación.
+It keeps inferred category, valid geometry, catalog eligibility, and compatibility as separate facts. A category is a hypothesis based on names and measurements, never guaranteed anatomical recognition. Unknown objects, effects, environments, props, and colliders stay out of the selectable catalog. OBJ does not contain usable skeleton weights for animation.
 
-## Análisis
+## Analysis
 
-Parser OBJ de índices positivos/negativos, polígonos, grupos, UV, normales, materiales, errores y límites. SHA-256 de conectividad ordenada, índices UV, valores UV y distribución de normales. Exact exige igualdad de conectividad y UV completas; probable preserva topología pero faltan UV; incompatible cuando difieren índices, conteos o UV. Igualdad topológica identifica candidatos técnicos, no demuestra que todos los vértices sean semánticamente homólogos.
+The OBJ parser supports positive and negative indices, polygons, groups, UVs, normals, materials, errors, and bounds. It computes SHA-256 fingerprints for ordered connectivity, UV indices and values, and normal-index distribution. `exact` requires equal connectivity and complete UVs; `probable` preserves topology with incomplete UV evidence; `incompatible` is recorded when indices, counts, or UVs differ. Topological equality identifies technical candidates only; it does not prove semantic correspondence between vertices.
 
-Para MergedMeshLod0, extraer arquetipo/cuerpo/cabello, buscar originales existentes de la variante exacta y contrastar posiciones y triángulos cuantizados. Un nombre coincidente solo produce evidencia débil. Geometría contenida respalda la combinación; partes ausentes o discrepantes quedan explícitas.
+For `MergedMeshLod0`, the scanner extracts archetype/body/hair candidates, finds exact individual variants when they exist, and compares quantized positions and triangles. A matching name alone is weak evidence. Contained geometry supports a combination; absent or mismatched parts remain explicit.
 
-Para BaseBody, comparar límites y vértices de bordes abiertos soldando posiciones para reducir falsos bordes UV. Registrar distancias de unión y cobertura; no declarar personaje completo. Caras/cuerpos: proximidad de bordes, escala y posición; no emparejar por número.
+For BaseBody pieces, the scanner compares bounds and open-boundary vertices by welding positions to reduce UV-seam false positives. It records joint distances and coverage without declaring a complete character. Faces and bodies are assessed through border proximity, scale, and position; they are never paired by matching numbers.
 
-MTL es evidencia de asignación; coincidencias de nombre/familia/carpeta son candidatas que requieren validación visual. Sprites se registran por separado, con hashes para duplicados. Lightmap/SDF se conservan como other, nunca se inventa una conversión PBR.
+MTL is evidence for a material assignment. Name, family, and folder matches are candidates that require visual validation. Sprites are registered independently, with hashes to identify duplicates. Lightmap and SDF files remain `other`; the scanner never invents a PBR conversion.
 
-## Verificación
+## Verification
 
-Pruebas adversariales con geometrías pequeñas conocidas, MTL, imágenes y archivos inválidos. Comprobar conteos, índices negativos, conectividad distinta con iguales vértices, UV, LOD, relaciones ambiguas y escritura fuera de originales. Ejecutar sobre las fuentes reales, validar referencias de JSON y repetir: salidas deterministas e inventario de hashes sin cambios.
+Adversarial tests use known small geometries, MTL files, images, and invalid files. They cover counts, negative indices, different connectivity with equal vertex counts, UVs, LODs, ambiguous relations, and writes outside original sources. The scanner runs against real sources, validates generated JSON references, and repeats deterministically while preserving original hashes.

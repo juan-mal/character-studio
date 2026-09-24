@@ -1,23 +1,23 @@
-# Character Studio
+# Character Studio design
 
-## Alcance autorizado
+## Scope
 
-Aplicación local React/TypeScript/Vite/Three.js sobre los catálogos de fase 1. La petición especifica diseño, comportamiento y verificación, por lo que se ejecuta completa en esta sesión. Sin servicios remotos, HDR externo ni framework de estado/3D adicional.
+Character Studio is a local React, TypeScript, Vite, and Three.js application driven by the Phase 1 generated catalogs. It uses no remote services, external HDR, or additional state/3D frameworks.
 
-## Decisiones
+## Decisions
 
-UI de tres columnas: navegación discreta, escenario amplio y panel de 360 px. Paleta neutra solicitada, tipografía system/Inter local, bordes y radio 10px. Header de 64px. Tablet compacta y móvil con panel inferior. Las categorías se calculan desde opciones compatibles, no desde una lista de modelos.
+The editor uses a three-column desktop layout: quiet navigation, a large scene, and a 360 px option panel. It follows a neutral palette, local Inter/system typography, 10 px rounded corners, and a 64 px header. Tablet layouts compact the navigation; mobile uses a bottom panel. Categories are derived from compatible options rather than from a hardcoded model list.
 
-El catálogo actual solo tiene tres presets geométricamente respaldados del mismo cuerpo Girl Body002. No inventar otros cuerpos/caras/tintado. Un inspector revisa si geometría adicional y texturas permiten ampliar evidencia. Las relaciones sin confirmar permanecen fuera de controles incompatibles. Material sin textura confirmada se presenta neutro y su limitación debe ser visible.
+The catalog exposes only pieces supported by reviewed geometry and material evidence. Unconfirmed relationships stay outside incompatible controls. Material with no confirmed texture is presented neutrally and its limitation remains visible.
 
-## Módulos y contratos
+## Modules and contracts
 
-- `src/types/studio.ts`: StudioData y configuración versionada mínima, serializable mediante IDs.
-- `src/compatibility`, `src/state`, `src/character`: resolver conservador, fallback y validación; historial sin cámara; persistencia pequeña y optativa recuperación.
-- `src/three`, `src/materials`, `src/export`: cachés, OBJ/MTL y GLB; un renderer persistente; ensamblaje transaccional, materiales por instancia; exportar CharacterRoot clonado con SkeletonUtils.
-- `src/components`, `src/app`, `src/styles`: UI accesible y notificaciones. Una selección solo se confirma después de cargar correctamente para evitar estados rotos. Durante una carga se conserva el personaje anterior.
-- Plugin Vite local: catálogo e imágenes/modelos mediante allowlist basada en archivos generados. Build copia recursos en dist sin tocar los originales. Sin rutas absolutas en cliente.
+- `src/types/studio.ts`: strict catalog data and a minimal, versioned configuration serialized through IDs.
+- `src/compatibility`, `src/state`, `src/character`: conservative resolver, fallbacks, validation, history without camera state, and small optional persistence.
+- `src/three`, `src/materials`, `src/export`: persistent renderer, geometry and texture caches, OBJ/MTL/GLB loading, lazy loading, per-instance materials, safe cloning, and GLB export.
+- `src/components`, `src/app`, `src/styles`: accessible UI, derived categories, notifications, and responsive presentation. A selection commits only after its resources load, so the previous valid character remains visible during failures.
+- The local Vite plugin serves catalogued resources through an allowlist and copies them into `dist` without editing originals or using absolute client paths.
 
-## Verificación
+## Verification
 
-Pruebas unitarias de compatibilidad, estado, undo/redo, validación, fallback y serialización. Typecheck, lint, tests, build. Navegador real con inspección visual de carga, opciones disponibles, cámara, acciones y descargas; volver a importar GLB para comprobar geometría y texturas embebidas. Funciones no habilitadas por datos reales se prueban con fixtures de contrato y se documentan como ausentes en catálogo actual.
+Unit tests cover compatibility, state transitions, undo/redo, preset validation, fallbacks, and serialization. Browser tests verify loading, available options, camera behavior, actions, downloads, responsive layouts, and exported GLB re-import through `GLTFLoader`. Features that are not enabled by catalog evidence are tested through contract fixtures and documented as unavailable in the active catalog.
