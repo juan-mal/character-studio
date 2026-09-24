@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "id": "project",
+      "path": ".",
+      "kind": "mixed"
+    },
+    {
+      "id": "mesh",
+      "path": "~/Downloads/Mesh",
+      "kind": "mesh"
+    },
+    {
+      "id": "textures",
+      "path": "~/Downloads/Texture2D",
+      "kind": "texture"
+    },
+    {
+      "id": "sprites",
+      "path": "~/Downloads/Sprite",
+      "kind": "preview"
+    },
+    {
+      "id": "import-previews",
+      "path": "content/previews",
+      "kind": "preview"
+    }
+  ]
+}

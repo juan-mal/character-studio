@@ -1,0 +1,31 @@
+import { test, expect } from '@playwright/test';
+import { mkdir } from 'node:fs/promises';
+
+test('anime appearance remains visible through camera angles and real hair designs', async ({page}) => {
+  const errors: string[] = [];
+  page.on('pageerror', error => errors.push(error.message));
+  page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
+  await mkdir('reports/anime',{recursive:true});
+  await page.setViewportSize({width:1440,height:900});
+  await page.goto('/');
+  await expect(page.getByRole('main')).toHaveAttribute('aria-busy','false');
+  await page.screenshot({path:'reports/anime/studio.png'});
+  const canvas = page.locator('canvas');
+  await canvas.screenshot({path:'reports/anime/full-body.png'});
+  await page.getByRole('button',{name:'Acercar a la cara',exact:true}).click();
+  await canvas.screenshot({path:'reports/anime/face.png'});
+  await canvas.focus();
+  for (let index=0;index<8;index++) await page.keyboard.press('ArrowRight');
+  await canvas.screenshot({path:'reports/anime/profile.png'});
+  for (let index=0;index<16;index++) await page.keyboard.press('ArrowRight');
+  await canvas.screenshot({path:'reports/anime/back.png'});
+  await page.getByRole('button',{name:'Centrar cámara',exact:true}).click();
+  await page.getByRole('button',{name:'Cabello',exact:true}).click();
+  await page.getByRole('button',{name:'Diseño 02',exact:true}).click();
+  await expect(page.getByRole('main')).toHaveAttribute('aria-busy','false');
+  await canvas.screenshot({path:'reports/anime/blonde.png'});
+  await page.getByRole('button',{name:'Deshacer',exact:true}).click();
+  await expect(page.getByRole('main')).toHaveAttribute('aria-busy','false');
+  await expect(page.getByRole('button',{name:'Diseño 01',exact:true})).toHaveAttribute('aria-pressed','true');
+  expect(errors).toEqual([]);
+});

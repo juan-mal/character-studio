@@ -1,0 +1,559 @@
+[
+  {
+    "members": [
+      {
+        "folder": "Amber-Default",
+        "files": [
+          {
+            "path": "Body_Amber_Default.obj",
+            "sha256": "44d2cd87ce813ebe00e95e834ca5bc07f879d743f50bff7af68a1e65d94dd9b0"
+          },
+          {
+            "path": "Body_Amber_Default.mtl",
+            "sha256": "9a1f8629f7e5b7bf808de07917b9fe5d57d5b4336bc605d1a3a6480922e60b95"
+          },
+          {
+            "path": "Avatar_Girl_Bow_Ambor_Tex_Body_Diffuse.png",
+            "sha256": "32a2f911e5815fd87c3589b5370f64cb8a5d2e8752232e39afb79ab14ca5a717"
+          },
+          {
+            "path": "Hair_Amber_Default.obj",
+            "sha256": "b3ccbe6f8d50d89e80cc43fa18eca742c967ae8e3e3a828238ea714a989a40f3"
+          },
+          {
+            "path": "Hair_Amber_Default.mtl",
+            "sha256": "b2dd5c50bf72748752be4a7dc34bf7825612a54fdbb53ef60a2f87bdaeb8ab99"
+          },
+          {
+            "path": "Avatar_Girl_Bow_Ambor_Tex_Hair_Diffuse.png",
+            "sha256": "e55aaedfbb17d153033286e8ca5bb54fe25abd7ee455c240e281188346d771bf"
+          },
+          {
+            "path": "Face_Amber_Default.obj",
+            "sha256": "46ea3706fff66a7064bb7a93a74733b1eeea17a3364b5a2fb62bcc4f780ab130"
+          },
+          {
+            "path": "Face_Amber_Default.mtl",
+            "sha256": "c16dc88544da60aa2346b197defadf523face21a67c13e1a5b898b441c469342"
+          },
+          {
+            "path": "Avatar_Girl_Bow_Ambor_Tex_Face_Diffuse.png",
+            "sha256": "516a009fddc6e49e0e8b2ae8e8f141fe1dc5040b6f251023a63f038eb6d72646"
+          },
+          {
+            "path": "Eyes_Amber_Default.obj",
+            "sha256": "83478cbc38b14331d917087ed499488d76d412cdc8b9aee35f00aa3f286297ba"
+          },
+          {
+            "path": "Eyes_Amber_Default.mtl",
+            "sha256": "b2dd5c50bf72748752be4a7dc34bf7825612a54fdbb53ef60a2f87bdaeb8ab99"
+          },
+          {
+            "path": "Avatar_Girl_Bow_Ambor_Tex_Hair_Diffuse.png",
+            "sha256": "e55aaedfbb17d153033286e8ca5bb54fe25abd7ee455c240e281188346d771bf"
+          },
+          {
+            "path": "Brows_Amber_Default.obj",
+            "sha256": "479d6d6ddd4cf2582e5353e81ae76f8a09c1d8e8cece9e67c269605521ae3706"
+          },
+          {
+            "path": "Brows_Amber_Default.mtl",
+            "sha256": "c16dc88544da60aa2346b197defadf523face21a67c13e1a5b898b441c469342"
+          },
+          {
+            "path": "Avatar_Girl_Bow_Ambor_Tex_Face_Diffuse.png",
+            "sha256": "516a009fddc6e49e0e8b2ae8e8f141fe1dc5040b6f251023a63f038eb6d72646"
+          }
+        ]
+      },
+      {
+        "folder": "Amber-Alternate",
+        "files": [
+          {
+            "path": "Body_Amber_Alternate.obj",
+            "sha256": "9efe86e7cbb245f63a639281e81d4848004649974ce0be82c47a62a3231e3c97"
+          },
+          {
+            "path": "Body_Amber_Alternate.mtl",
+            "sha256": "d51a6785542fbc561761678c9ff372ee35729adee6ee2d3c9e4e5d1b636c26fd"
+          },
+          {
+            "path": "Avatar_Girl_Bow_AmborCostumeWic_Tex_Body_Diffuse.png",
+            "sha256": "096fee913a1ddc555f2f6ceb72560eaa8386c85cf7d915ebc6e9f255b9cbdca5"
+          },
+          {
+            "path": "Hair_Amber_Alternate.obj",
+            "sha256": "973a55b9f4952b0eaf2149f9d372827a472ec338b32529bada76a6170251147d"
+          },
+          {
+            "path": "Hair_Amber_Alternate.mtl",
+            "sha256": "58f2016eebfdb1f1705478039e971a0da46dabd44be5a324cb17c0741571b6bb"
+          },
+          {
+            "path": "Avatar_Girl_Bow_AmborCostumeWic_Tex_Hair_Diffuse.png",
+            "sha256": "e55aaedfbb17d153033286e8ca5bb54fe25abd7ee455c240e281188346d771bf"
+          },
+          {
+            "path": "Face_Amber_Alternate.obj",
+            "sha256": "0369f24ab5b96ab2d9c755784b71ec5b55f608ccfb84e2e90a9c69e71e2cb752"
+          },
+          {
+            "path": "Face_Amber_Alternate.mtl",
+            "sha256": "a0c03d92488992519747c1ccd27e62f9333d20ecb80300220d0ccbc0b57bf883"
+          },
+          {
+            "path": "Avatar_Girl_Bow_AmborCostumeWic_Tex_Face_Diffuse.png",
+            "sha256": "516a009fddc6e49e0e8b2ae8e8f141fe1dc5040b6f251023a63f038eb6d72646"
+          },
+          {
+            "path": "Eyes_Amber_Alternate.obj",
+            "sha256": "715a0ce12368c921e46d7235ddcc0bf3d358883e90499f8c18fafd294a648a48"
+          },
+          {
+            "path": "Eyes_Amber_Alternate.mtl",
+            "sha256": "58f2016eebfdb1f1705478039e971a0da46dabd44be5a324cb17c0741571b6bb"
+          },
+          {
+            "path": "Avatar_Girl_Bow_AmborCostumeWic_Tex_Hair_Diffuse.png",
+            "sha256": "e55aaedfbb17d153033286e8ca5bb54fe25abd7ee455c240e281188346d771bf"
+          },
+          {
+            "path": "Brows_Amber_Alternate.obj",
+            "sha256": "18bcec17ce7e77081f7ea948d7368f228bd4cb11c4d44e9fb5d6e9162d1bf29f"
+          },
+          {
+            "path": "Brows_Amber_Alternate.mtl",
+            "sha256": "a0c03d92488992519747c1ccd27e62f9333d20ecb80300220d0ccbc0b57bf883"
+          },
+          {
+            "path": "Avatar_Girl_Bow_AmborCostumeWic_Tex_Face_Diffuse.png",
+            "sha256": "516a009fddc6e49e0e8b2ae8e8f141fe1dc5040b6f251023a63f038eb6d72646"
+          }
+        ]
+      },
+      {
+        "folder": "Barbara-Default",
+        "files": [
+          {
+            "path": "Body_Barbara_Default.obj",
+            "sha256": "d7264750f3e89571016a484e1f1d35054d04e9433b34087ec32f15c758ac9d6c"
+          },
+          {
+            "path": "Body_Barbara_Default.mtl",
+            "sha256": "ad74a50aa14e307c42b83c092970cd79199fb865318adaeb9f183610ebf7506d"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Barbara_Tex_Body_Diffuse.png",
+            "sha256": "11406e0f76579a1d24277cab620e6713147d31086c9246c3a5c02a3339ddbd0e"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Barbara_Tex_Body_Diffuse.png",
+            "sha256": "11406e0f76579a1d24277cab620e6713147d31086c9246c3a5c02a3339ddbd0e"
+          },
+          {
+            "path": "Hair_Barbara_Default.obj",
+            "sha256": "de19ce9d2410bfb006f48a6135c77d4d48214a1e4543350fef1575b690aa6fc1"
+          },
+          {
+            "path": "Hair_Barbara_Default.mtl",
+            "sha256": "cb45a6d3b32f36582a52a09e39fe1ee36a6e1d51375ccd05f7ee0f42a5f73e21"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Barbara_Tex_Hair_Diffuse.png",
+            "sha256": "4d7194557715d03267f246038c0e0a2b9b9de896125f79538e6e17ed6c5510e3"
+          },
+          {
+            "path": "Face_Barbara_Default.obj",
+            "sha256": "0032e28c7ba039b327f8484e822fe57f04d279aeaf6f8bbe71b6e54f3b60ca1d"
+          },
+          {
+            "path": "Face_Barbara_Default.mtl",
+            "sha256": "5f97594efcf57ae066b44fa8007f349fb5790f90db2ab976a8e25ef31b5c6954"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Barbara_Tex_Face_Diffuse.png",
+            "sha256": "da14b45d19ffe36b62cc69b760d3386629b3b152cb19f303087b22e473092c29"
+          },
+          {
+            "path": "Eyes_Barbara_Default.obj",
+            "sha256": "86b024191e01895b47e2838252e5cbeaf6a29de7c88385e2adba8098b05f7d24"
+          },
+          {
+            "path": "Eyes_Barbara_Default.mtl",
+            "sha256": "cb45a6d3b32f36582a52a09e39fe1ee36a6e1d51375ccd05f7ee0f42a5f73e21"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Barbara_Tex_Hair_Diffuse.png",
+            "sha256": "4d7194557715d03267f246038c0e0a2b9b9de896125f79538e6e17ed6c5510e3"
+          },
+          {
+            "path": "Brows_Barbara_Default.obj",
+            "sha256": "678add8d06a5d098d082c65d160213dbd88a95e0017825c730ee983ce22dca99"
+          },
+          {
+            "path": "Brows_Barbara_Default.mtl",
+            "sha256": "5f97594efcf57ae066b44fa8007f349fb5790f90db2ab976a8e25ef31b5c6954"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Barbara_Tex_Face_Diffuse.png",
+            "sha256": "da14b45d19ffe36b62cc69b760d3386629b3b152cb19f303087b22e473092c29"
+          }
+        ]
+      },
+      {
+        "folder": "Barbara-Summer",
+        "files": [
+          {
+            "path": "Body_Barbara_Summer.obj",
+            "sha256": "f761add5396a3278d5d45bb05511875f832ba300848612c1cea81d0482d2bdef"
+          },
+          {
+            "path": "Body_Barbara_Summer.mtl",
+            "sha256": "c849ac40578c21b73129826625cc2b35091cbbc77b391dc0f4446881aec6b2f5"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_BarbaraCostumeSummertime_Tex_Body_Diffuse.png",
+            "sha256": "5db3ba271520887c777e364cd3cdf223b941f963d87f7b1d399886687974d6dd"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_BarbaraCostumeSummertime_Tex_Body_Diffuse.png",
+            "sha256": "5db3ba271520887c777e364cd3cdf223b941f963d87f7b1d399886687974d6dd"
+          },
+          {
+            "path": "Hair_Barbara_Summer.obj",
+            "sha256": "970be0f78e49246b65b29dfaa3cae605eac41eb673bd630f451cab0fae40d2e3"
+          },
+          {
+            "path": "Hair_Barbara_Summer.mtl",
+            "sha256": "6b374fbb02a6c9325b79dc586ea88ebd4d8991b335dbf267a63d221e10042098"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_BarbaraCostumeSummertime_Tex_Hair_Diffuse.png",
+            "sha256": "e12bd71e03473b6320bcbbd996166abd734eda50a5963eb5aa7f1ea3f72d84a1"
+          },
+          {
+            "path": "Face_Barbara_Summer.obj",
+            "sha256": "d5f36a469a7958cfec3def77fe9bde6c150e9379dd566a6da9c0da7ff9010a52"
+          },
+          {
+            "path": "Face_Barbara_Summer.mtl",
+            "sha256": "5f97594efcf57ae066b44fa8007f349fb5790f90db2ab976a8e25ef31b5c6954"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Barbara_Tex_Face_Diffuse.png",
+            "sha256": "da14b45d19ffe36b62cc69b760d3386629b3b152cb19f303087b22e473092c29"
+          },
+          {
+            "path": "Eyes_Barbara_Summer.obj",
+            "sha256": "4e86c238cb0d6cea9dd401ea929acf793efcbaed8959597b9095c4a867b87f52"
+          },
+          {
+            "path": "Eyes_Barbara_Summer.mtl",
+            "sha256": "6b374fbb02a6c9325b79dc586ea88ebd4d8991b335dbf267a63d221e10042098"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_BarbaraCostumeSummertime_Tex_Hair_Diffuse.png",
+            "sha256": "e12bd71e03473b6320bcbbd996166abd734eda50a5963eb5aa7f1ea3f72d84a1"
+          },
+          {
+            "path": "Brows_Barbara_Summer.obj",
+            "sha256": "b877a2b3110485057242cb0b26736ffc4f55b6f1c7ba70bc87e628bdc2cbe5c7"
+          },
+          {
+            "path": "Brows_Barbara_Summer.mtl",
+            "sha256": "5f97594efcf57ae066b44fa8007f349fb5790f90db2ab976a8e25ef31b5c6954"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Barbara_Tex_Face_Diffuse.png",
+            "sha256": "da14b45d19ffe36b62cc69b760d3386629b3b152cb19f303087b22e473092c29"
+          }
+        ]
+      },
+      {
+        "folder": "Keqing-Default",
+        "files": [
+          {
+            "path": "Body_Keqing_Default.obj",
+            "sha256": "62e9672e7d96551c768c871390a4b630ed0f0da24a08c3eb7b6f83ee4a72858d"
+          },
+          {
+            "path": "Body_Keqing_Default.mtl",
+            "sha256": "f93708de23f15574a894de540810532dd546d52d79de22d086a7193919b3e7a2"
+          },
+          {
+            "path": "Avatar_Girl_Sword_Keqing_Tex_Body_Diffuse.png",
+            "sha256": "36f32808a0d93067ee128b723bfbfc24747f5ccb3a6c6e822a483c8871f9c1e9"
+          },
+          {
+            "path": "Avatar_Girl_Sword_Keqing_Tex_Body_Diffuse.png",
+            "sha256": "36f32808a0d93067ee128b723bfbfc24747f5ccb3a6c6e822a483c8871f9c1e9"
+          },
+          {
+            "path": "Hair_Keqing_Default.obj",
+            "sha256": "26c735b11692be84a25e067cc3944cfffbdbde1f500522dc261ffd333ad53d85"
+          },
+          {
+            "path": "Hair_Keqing_Default.mtl",
+            "sha256": "b625abdc97c4681d32447bb8975b5e89c54117b974f43eb3710b8efba15a3f62"
+          },
+          {
+            "path": "Avatar_Girl_Sword_Keqing_Tex_Hair_Diffuse.png",
+            "sha256": "34e2b0d54dfb4bd02d8f97411cf5b598d8d5587c5ea37ac8160c99f5b60b032d"
+          },
+          {
+            "path": "Face_Keqing_Default.obj",
+            "sha256": "b2d8c0b59bb7bcdfc847609398d1fec6f621ba3eb320dfc03321847b50ad807d"
+          },
+          {
+            "path": "Face_Keqing_Default.mtl",
+            "sha256": "dd3ad87c4c66c827c879a6c5e54bbc2db796246031effbc37eaec72bbac1f9de"
+          },
+          {
+            "path": "Avatar_Girl_Sword_Keqing_Tex_Face_Diffuse.png",
+            "sha256": "9ab78a7cf0c3b930a28b4bccd66c635b88ad8c6701bddb3cfe37d0ef9dca8ce2"
+          },
+          {
+            "path": "Eyes_Keqing_Default.obj",
+            "sha256": "1e1d21a2c3021f94bdc8cedcfc29f95a14e116416c455077eecfcfae4f0d3831"
+          },
+          {
+            "path": "Eyes_Keqing_Default.mtl",
+            "sha256": "b625abdc97c4681d32447bb8975b5e89c54117b974f43eb3710b8efba15a3f62"
+          },
+          {
+            "path": "Avatar_Girl_Sword_Keqing_Tex_Hair_Diffuse.png",
+            "sha256": "34e2b0d54dfb4bd02d8f97411cf5b598d8d5587c5ea37ac8160c99f5b60b032d"
+          },
+          {
+            "path": "Brows_Keqing_Default.obj",
+            "sha256": "610f83bcdbdda9b1750307b31403fdacc1c17edeb80d7de06deb952e2c4248a1"
+          },
+          {
+            "path": "Brows_Keqing_Default.mtl",
+            "sha256": "dd3ad87c4c66c827c879a6c5e54bbc2db796246031effbc37eaec72bbac1f9de"
+          },
+          {
+            "path": "Avatar_Girl_Sword_Keqing_Tex_Face_Diffuse.png",
+            "sha256": "9ab78a7cf0c3b930a28b4bccd66c635b88ad8c6701bddb3cfe37d0ef9dca8ce2"
+          }
+        ]
+      },
+      {
+        "folder": "Mona-Default",
+        "files": [
+          {
+            "path": "Body_Mona_Default.obj",
+            "sha256": "265bd7582f7c389b20dc9aaf3fa805420cd0ac9d435f5bee3dc21db7c5d7d89a"
+          },
+          {
+            "path": "Body_Mona_Default.mtl",
+            "sha256": "af0d11a00a927020e2cd67a400a679af9d0699e6a9a1f8f560dcd2efe075c200"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Mona_Tex_Body_Diffuse.png",
+            "sha256": "76c3b719405b282b3c099bd82ed4ada947e0f4c702ecb38bd976bd2afc40a25a"
+          },
+          {
+            "path": "Hair_Mona_Default.obj",
+            "sha256": "fc088be978f07ee6c05cc379e47b8b762b161fb2b9186f91cfe4248befa681f9"
+          },
+          {
+            "path": "Hair_Mona_Default.mtl",
+            "sha256": "a468ba1970ee4923fe3487b87c1de8a65195de8a9df1059ce6e51c5fdd9237d0"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Mona_Tex_Hair_Diffuse.png",
+            "sha256": "3058f469195d2a00e4529b71cdebacabc6c5fb86fdafb9c44d6186f38b2e6f32"
+          },
+          {
+            "path": "Face_Mona_Default.obj",
+            "sha256": "ad5202f79e7ca43853c563097f2f7554a5ad0d63fa49e7f2355b82153f53767e"
+          },
+          {
+            "path": "Face_Mona_Default.mtl",
+            "sha256": "d8e2c521fdd4208f70a1537da1e7c252964d6f937aca4c4dcdd38cc0f55bac66"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Mona_Tex_Face_Diffuse.png",
+            "sha256": "9fb5aadd36bd659d1b2dc8f68f3c2aff9e6410402f2f863f5744b96766b49e1d"
+          },
+          {
+            "path": "Eyes_Mona_Default.obj",
+            "sha256": "4330e38417382b2d7d3da89e8458783b1fd0ea4129a5b1f637eaa41a0c5cf16f"
+          },
+          {
+            "path": "Eyes_Mona_Default.mtl",
+            "sha256": "a468ba1970ee4923fe3487b87c1de8a65195de8a9df1059ce6e51c5fdd9237d0"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Mona_Tex_Hair_Diffuse.png",
+            "sha256": "3058f469195d2a00e4529b71cdebacabc6c5fb86fdafb9c44d6186f38b2e6f32"
+          },
+          {
+            "path": "Brows_Mona_Default.obj",
+            "sha256": "eb89288837fc217e0493115c19dc87254c4ff41b22b1ca0d12ebb9fe8ce67446"
+          },
+          {
+            "path": "Brows_Mona_Default.mtl",
+            "sha256": "d8e2c521fdd4208f70a1537da1e7c252964d6f937aca4c4dcdd38cc0f55bac66"
+          },
+          {
+            "path": "Avatar_Girl_Catalyst_Mona_Tex_Face_Diffuse.png",
+            "sha256": "9fb5aadd36bd659d1b2dc8f68f3c2aff9e6410402f2f863f5744b96766b49e1d"
+          }
+        ]
+      },
+      {
+        "folder": "Noelle-Default",
+        "files": [
+          {
+            "path": "Body_Noelle_Default.obj",
+            "sha256": "03954354416e4a264da7698608e48c3ff3abf90e2c51a11cd892c9558ca90d2b"
+          },
+          {
+            "path": "Body_Noelle_Default.mtl",
+            "sha256": "46a3e7661dd06036672f23489416b9fee8273c864449b2267448b0266dbf6179"
+          },
+          {
+            "path": "Avatar_Girl_Claymore_Noel_Tex_Body_Diffuse.png",
+            "sha256": "09787fea1e307b75e9483807357592abcdc5e93aa818658b9d950b05f0efd5ba"
+          },
+          {
+            "path": "Avatar_Girl_Claymore_Noel_Tex_Body_Diffuse.png",
+            "sha256": "09787fea1e307b75e9483807357592abcdc5e93aa818658b9d950b05f0efd5ba"
+          },
+          {
+            "path": "Hair_Noelle_Default.obj",
+            "sha256": "353e84629b11a617618fe942eaecd82c8acae321a324fcc0ed9d2ccf92385f02"
+          },
+          {
+            "path": "Hair_Noelle_Default.mtl",
+            "sha256": "a77c1f482fc3e8c99aa404d3e5ff84106544ec8433097c47b1d3af3c28a5d303"
+          },
+          {
+            "path": "Avatar_Girl_Claymore_Noel_Tex_Hair_Diffuse.png",
+            "sha256": "e7d700802591ad7d88b4f523f107bd6a0ed5935f55cd78cfb229d0ea05afa9b7"
+          },
+          {
+            "path": "Face_Noelle_Default.obj",
+            "sha256": "631d7a92168ee6329b496eecc579b3c7c02b645607c823e49a1771d40d089072"
+          },
+          {
+            "path": "Face_Noelle_Default.mtl",
+            "sha256": "7766efc2e2da2ea0e53e8a12b7e9ac1be214b363d4220b0d67484a1291b7ab54"
+          },
+          {
+            "path": "Avatar_Girl_Claymore_Noel_Tex_Face_Diffuse.png",
+            "sha256": "f856a2b4bfd53382ab8a7b49dc3f4f58703d6975cf24087afe91732274a4bd34"
+          },
+          {
+            "path": "Eyes_Noelle_Default.obj",
+            "sha256": "8456270d2aec1febc7f7609601eb902e681092d641caba98be4276434a116447"
+          },
+          {
+            "path": "Eyes_Noelle_Default.mtl",
+            "sha256": "a77c1f482fc3e8c99aa404d3e5ff84106544ec8433097c47b1d3af3c28a5d303"
+          },
+          {
+            "path": "Avatar_Girl_Claymore_Noel_Tex_Hair_Diffuse.png",
+            "sha256": "e7d700802591ad7d88b4f523f107bd6a0ed5935f55cd78cfb229d0ea05afa9b7"
+          },
+          {
+            "path": "Brows_Noelle_Default.obj",
+            "sha256": "417d7f63bf869e50d0fd2c0a7d81af43da009d46941c6fd24760366e58ad2d68"
+          },
+          {
+            "path": "Brows_Noelle_Default.mtl",
+            "sha256": "7766efc2e2da2ea0e53e8a12b7e9ac1be214b363d4220b0d67484a1291b7ab54"
+          },
+          {
+            "path": "Avatar_Girl_Claymore_Noel_Tex_Face_Diffuse.png",
+            "sha256": "f856a2b4bfd53382ab8a7b49dc3f4f58703d6975cf24087afe91732274a4bd34"
+          }
+        ]
+      },
+      {
+        "folder": "Xiangling-Default",
+        "files": [
+          {
+            "path": "Body_Xiangling_Default.obj",
+            "sha256": "a8bebb425db4dbd79191a6ab91ca726d90adb7517e9f31ac1ba73437126ea5a6"
+          },
+          {
+            "path": "Body_Xiangling_Default.mtl",
+            "sha256": "e53117f209dec1d5fa891c7cc652d39e71829c0ef48009e9a81d5c1f2a148eb0"
+          },
+          {
+            "path": "Avatar_Girl_Pole_Xiangling_Tex_Body_Diffuse.png",
+            "sha256": "d8e6f46c5b33751dd852fd3ae2d8f39cf6f2e159976dd3328c848d6396db51dc"
+          },
+          {
+            "path": "Avatar_Girl_Pole_Xiangling_Tex_Body_Diffuse.png",
+            "sha256": "d8e6f46c5b33751dd852fd3ae2d8f39cf6f2e159976dd3328c848d6396db51dc"
+          },
+          {
+            "path": "Hair_Xiangling_Default.obj",
+            "sha256": "d6dc4a4c684565dece17cb825f493ebdd63af6b650896c5993cc9cf67ace2c77"
+          },
+          {
+            "path": "Hair_Xiangling_Default.mtl",
+            "sha256": "edd70206d59fd5a9c8e5cbf678f0eb11514711e14c4b7fa0ffc48177a1b0a4d4"
+          },
+          {
+            "path": "Avatar_Girl_Pole_Xiangling_Tex_Hair_Diffuse.png",
+            "sha256": "b67f137f2213680fbbf1b62168c09b3058b233b31dab786fe1e6f12444160c2f"
+          },
+          {
+            "path": "Face_Xiangling_Default.obj",
+            "sha256": "d62fde1f7c76d776fe76fe15823c8d435246140b358582dfc74da8c872f4fd0a"
+          },
+          {
+            "path": "Face_Xiangling_Default.mtl",
+            "sha256": "ed0d5e16854524b313df3e2d7f9ca5bd88efcc4f154920acedd496a86f57c58b"
+          },
+          {
+            "path": "Avatar_Girl_Pole_Xiangling_Tex_Face_Diffuse.png",
+            "sha256": "3f3afa0943edaf8ddb3a7542675e0551e4977c5cef61529d9c882125b4a1b0b3"
+          },
+          {
+            "path": "Eyes_Xiangling_Default.obj",
+            "sha256": "0f7dc53e9e4ac0bfc633d3258531bddabf28f27460843563ed4d20148c2cc9ed"
+          },
+          {
+            "path": "Eyes_Xiangling_Default.mtl",
+            "sha256": "edd70206d59fd5a9c8e5cbf678f0eb11514711e14c4b7fa0ffc48177a1b0a4d4"
+          },
+          {
+            "path": "Avatar_Girl_Pole_Xiangling_Tex_Hair_Diffuse.png",
+            "sha256": "b67f137f2213680fbbf1b62168c09b3058b233b31dab786fe1e6f12444160c2f"
+          },
+          {
+            "path": "Brows_Xiangling_Default.obj",
+            "sha256": "ecbc15fe20dfe81629bada93d8ee27cbc8c9c5e710716037cfd0e4692b3542e6"
+          },
+          {
+            "path": "Brows_Xiangling_Default.mtl",
+            "sha256": "ed0d5e16854524b313df3e2d7f9ca5bd88efcc4f154920acedd496a86f57c58b"
+          },
+          {
+            "path": "Avatar_Girl_Pole_Xiangling_Tex_Face_Diffuse.png",
+            "sha256": "3f3afa0943edaf8ddb3a7542675e0551e4977c5cef61529d9c882125b4a1b0b3"
+          }
+        ]
+      }
+    ],
+    "reviewed": true,
+    "restrictedHair": [
+      "Noelle-Default",
+      "Xiangling-Default"
+    ],
+    "evidence": [
+      "Original coordinates; face bounds and symmetric neck surface distance checked at scan time (tolerance 0.1 mm).",
+      "28 static full-body and face captures inspected in reports/head-mixes. No scale or translation applied.",
+      "Noelle and Xiangling hair meshes include collar or costume geometry; cross-pack hair exchange disabled.",
+      "Compatibility covers static head placement, not animation or collision-free movement. Body-mounted ornaments remain part of the outfit.",
+      "Fischl excluded from cross-head group: only one iris is authored; the original eyepatch is required.",
+      "Sucrose excluded from cross-head group: facial components contain part of the glasses."
+    ]
+  }
+]

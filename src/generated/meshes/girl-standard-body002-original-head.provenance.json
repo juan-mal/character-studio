@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "reviewedRuleId": "girl-standard-body002-original-head",
+  "method": "subtract-original-triangles",
+  "quantization": 0.0001,
+  "sources": [
+    {
+      "meshId": "55d33e5f124a706029aa",
+      "sourceId": "mesh",
+      "relativePath": "MergedMeshLod0_NPC_Crowd_Snezhnaya_Girl_Standard_Body002_Hair205_Vila_Druzhna01_01_Item_FurHat01_VilaWings_761.obj",
+      "sha256": "0bf32f4544e09595a8124ca510228fad59588fae7461f49393bd27e0b3a7ef34"
+    },
+    {
+      "meshId": "e3936fa25c45f20681ab",
+      "sourceId": "mesh",
+      "relativePath": "MergedMeshLod0_NPC_Crowd_Snezhnaya_Girl_Standard_Body002_Hair210_Vila_Druzhna01_01_Item_FurHat01_VilaWings_762.obj",
+      "sha256": "1f8a1f19ff40eb19a168c2334e1ae4c8345a6b3b6911e4fb48fb7a494086fb91"
+    },
+    {
+      "meshId": "fd4b91315ad97713fc92",
+      "sourceId": "mesh",
+      "relativePath": "MergedMeshLod0_NPC_Crowd_Snezhnaya_Girl_Standard_Body002_Hair213_Vila_Druzhna01_01_Item_FurHat01_VilaWings_763.obj",
+      "sha256": "489ebee65800061bfb3fdd46c3564b58c89c075eb1772af4497df1da7a4b3c24"
+    }
+  ],
+  "removedParts": [
+    {
+      "bodyMeshId": "44a50d9ff40b68a43c79",
+      "bodySha256": "8187a0f8b5a141774636889213bf780788af5dfcf13b66ccb2bc6a1613b9b03e",
+      "hairMeshId": "49b3f38609f2351f5107",
+      "hairSha256": "83ea7eb5f50881f917fd91d8c6d70b47083375c7c03301518bdeb734b1db5d01"
+    },
+    {
+      "bodyMeshId": "44a50d9ff40b68a43c79",
+      "bodySha256": "8187a0f8b5a141774636889213bf780788af5dfcf13b66ccb2bc6a1613b9b03e",
+      "hairMeshId": "5c0abb49e770a631c4b8",
+      "hairSha256": "2fb69c78c5fac7db6fec7abf42f0c79cb1342230c3fe0629eef4d2c59b82cf64"
+    },
+    {
+      "bodyMeshId": "44a50d9ff40b68a43c79",
+      "bodySha256": "8187a0f8b5a141774636889213bf780788af5dfcf13b66ccb2bc6a1613b9b03e",
+      "hairMeshId": "ee35a76a2882bcbc4a8d",
+      "hairSha256": "4c5cf43420829d9b3f511f74e24c0b8f7a6ee34482d3117ef29667b9ee9f1f54"
+    }
+  ],
+  "derivedSha256": "c1806e48432ab2cd625f78ab81c81a68df6989f0f0189665adcd5dcdb631dd7f",
+  "layoutSignature": "63c49284cf50467c3603c16e4d6eef5698efa9a464154efcc7c69d8374920037",
+  "evidence": [
+    "Regla revisada girl-standard-body002-original-head: Sustracción de triángulos Body002_Standard y Hair205/210/213_Standard de sus tres MergedMeshLod0 y comparación exacta del residual (2026-09-21).",
+    "Resta de cuerpo y pelo con 100% de posiciones y triángulos contenidos; cuantización 0.0001.",
+    "Residual de 1952 triángulos idéntico en posiciones, UV, normales y orientación entre 3 merged.",
+    "Cada cuerpo y pelo tiene 100% de sus posiciones y triángulos contenidos en su merged; el residual ocupa la región de cabeza en coordenadas originales.",
+    "El residual mantiene los mismos 1952 triángulos, posiciones, UV, normales y orientación entre las tres fuentes independientes, sin redondear el hash de comparación.",
+    "Ninguna malla Face individual coincide con los triángulos residuales en coordenadas originales; no se asigna Face001 ni otra cara por número.",
+    "Body002 conserva ojos integrados: 144 triángulos utilizan la región de iris del atlas, con bounds x±0.052899, y1.389510–1.418249, z0.091533–0.099143.",
+    "La recuperación geométrica no demuestra rig, intercambiabilidad de ojos ni asociación del material original.",
+    "Fuente 55d33e5f124a706029aa; SHA-256 0bf32f4544e09595a8124ca510228fad59588fae7461f49393bd27e0b3a7ef34",
+    "Fuente e3936fa25c45f20681ab; SHA-256 1f8a1f19ff40eb19a168c2334e1ae4c8345a6b3b6911e4fb48fb7a494086fb91",
+    "Fuente fd4b91315ad97713fc92; SHA-256 489ebee65800061bfb3fdd46c3564b58c89c075eb1772af4497df1da7a4b3c24"
+  ]
+}

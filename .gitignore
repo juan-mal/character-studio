@@ -1,0 +1,13 @@
+node_modules/
+*.tmp
+.assets-scan.lock
+assets.scan.local.json
+dist/
+test-results/
+playwright-report/
+.tools/
+
+# Local game assets and generated visual evidence never belong in the public source repository.
+content/characters/
+content/previews/
+reports/

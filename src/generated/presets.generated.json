@@ -1,0 +1,915 @@
+{
+  "schemaVersion": 1,
+  "presets": [
+    {
+      "id": "preset-409e56e7d6bd54da",
+      "name": "Female / Standard / Body016 / Hair202",
+      "archetype": "Female",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "6b62c0dedf21b5dff753"
+      ],
+      "bodyFamily": "Body016",
+      "hairFamily": "Hair202",
+      "bodyAssetIds": [
+        "asset-d2a61cce1ddc14fa26a3"
+      ],
+      "hairAssetIds": [
+        "asset-bcacc41e851673558f5e"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-ec78b541b27a99d4",
+      "name": "Girl / Standard / Body001 / Hair205",
+      "archetype": "Girl",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "4ad8b66f79b1703cc568"
+      ],
+      "bodyFamily": "Body001",
+      "hairFamily": "Hair205",
+      "bodyAssetIds": [
+        "asset-87f9d6f08e19e3e07cd6",
+        "asset-6988b1976d77e115e7ed"
+      ],
+      "hairAssetIds": [
+        "asset-2da96966ffba09109ad5"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-35ad735817dc499a",
+      "name": "Girl / Standard / Body001 / Hair210",
+      "archetype": "Girl",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "044d7fe94483953ca492"
+      ],
+      "bodyFamily": "Body001",
+      "hairFamily": "Hair210",
+      "bodyAssetIds": [
+        "asset-87f9d6f08e19e3e07cd6",
+        "asset-6988b1976d77e115e7ed"
+      ],
+      "hairAssetIds": [
+        "asset-24285025842a3ebc56f3"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-5d32d172a728450d",
+      "name": "Girl / Standard / Body001 / Hair213",
+      "archetype": "Girl",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "14ef31825ffc24b8b8df"
+      ],
+      "bodyFamily": "Body001",
+      "hairFamily": "Hair213",
+      "bodyAssetIds": [
+        "asset-87f9d6f08e19e3e07cd6",
+        "asset-6988b1976d77e115e7ed"
+      ],
+      "hairAssetIds": [
+        "asset-f05d737e9560a6c67351"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-2cbdf1ac90082436",
+      "name": "Girl / Standard / Body002 / Hair205",
+      "archetype": "Girl",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "55d33e5f124a706029aa"
+      ],
+      "bodyFamily": "Body002",
+      "hairFamily": "Hair205",
+      "bodyAssetIds": [
+        "asset-61182fd90aed5eb7a89a"
+      ],
+      "hairAssetIds": [
+        "asset-2da96966ffba09109ad5"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar",
+        "Superficie original recuperada: asset-5c90530463083b1de250; composición geométrica con cuerpo y pelo en coordenadas originales. Textura y rig requieren evidencia aparte."
+      ]
+    },
+    {
+      "id": "preset-affccfdc503c2023",
+      "name": "Girl / Standard / Body002 / Hair210",
+      "archetype": "Girl",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "e3936fa25c45f20681ab"
+      ],
+      "bodyFamily": "Body002",
+      "hairFamily": "Hair210",
+      "bodyAssetIds": [
+        "asset-61182fd90aed5eb7a89a"
+      ],
+      "hairAssetIds": [
+        "asset-24285025842a3ebc56f3"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar",
+        "Superficie original recuperada: asset-5c90530463083b1de250; composición geométrica con cuerpo y pelo en coordenadas originales. Textura y rig requieren evidencia aparte."
+      ]
+    },
+    {
+      "id": "preset-f605f7f9da5e8a10",
+      "name": "Girl / Standard / Body002 / Hair213",
+      "archetype": "Girl",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "fd4b91315ad97713fc92"
+      ],
+      "bodyFamily": "Body002",
+      "hairFamily": "Hair213",
+      "bodyAssetIds": [
+        "asset-61182fd90aed5eb7a89a"
+      ],
+      "hairAssetIds": [
+        "asset-f05d737e9560a6c67351"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar",
+        "Superficie original recuperada: asset-5c90530463083b1de250; composición geométrica con cuerpo y pelo en coordenadas originales. Textura y rig requieren evidencia aparte."
+      ]
+    },
+    {
+      "id": "preset-e097fc2fe3b5e1f4",
+      "name": "Male / Standard / Body004 / Hair022",
+      "archetype": "Male",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "95211251fce1a0208780",
+        "92a4661d2d023a90fd9a"
+      ],
+      "bodyFamily": "Body004",
+      "hairFamily": "Hair022",
+      "bodyAssetIds": [
+        "asset-5d1156a786619a85b62f"
+      ],
+      "hairAssetIds": [],
+      "missingParts": [
+        "Hair022_Standard"
+      ],
+      "status": "incomplete",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-83f2498bf5fc399c",
+      "name": "Male / Standard / Body004 / Hair028",
+      "archetype": "Male",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "151cdca1c7091c3f4813",
+        "c85573a9fe8452234680"
+      ],
+      "bodyFamily": "Body004",
+      "hairFamily": "Hair028",
+      "bodyAssetIds": [
+        "asset-5d1156a786619a85b62f"
+      ],
+      "hairAssetIds": [
+        "asset-95bcc09758bfd939abd8"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-c98bdcfcc43fbb30",
+      "name": "Male / Standard / Body004 / Hair030",
+      "archetype": "Male",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "b499f657b03d81c00686",
+        "ead6975d413daf35ff4c"
+      ],
+      "bodyFamily": "Body004",
+      "hairFamily": "Hair030",
+      "bodyAssetIds": [
+        "asset-5d1156a786619a85b62f"
+      ],
+      "hairAssetIds": [
+        "asset-7159fb25e968eb46f8d2"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-62ef658ef8cb83ba",
+      "name": "Male / Standard / Body006 / Hair028",
+      "archetype": "Male",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "ecc5706597d109b36d0d"
+      ],
+      "bodyFamily": "Body006",
+      "hairFamily": "Hair028",
+      "bodyAssetIds": [],
+      "hairAssetIds": [
+        "asset-95bcc09758bfd939abd8"
+      ],
+      "missingParts": [
+        "Body006_Standard"
+      ],
+      "status": "incomplete",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-da64755ea6556be8",
+      "name": "Male / Standard / Body006 / Hair030",
+      "archetype": "Male",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "5ec7b3aeec4b3d26032f"
+      ],
+      "bodyFamily": "Body006",
+      "hairFamily": "Hair030",
+      "bodyAssetIds": [],
+      "hairAssetIds": [
+        "asset-7159fb25e968eb46f8d2"
+      ],
+      "missingParts": [
+        "Body006_Standard"
+      ],
+      "status": "incomplete",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-89bb8f6147c0dfcd",
+      "name": "Male / Standard / Body011 / Hair022",
+      "archetype": "Male",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "c7fd136587e18a505759",
+        "cb93ce65d92b74a507bd"
+      ],
+      "bodyFamily": "Body011",
+      "hairFamily": "Hair022",
+      "bodyAssetIds": [
+        "asset-42868acd87d31c9ab9fe"
+      ],
+      "hairAssetIds": [],
+      "missingParts": [
+        "Hair022_Standard"
+      ],
+      "status": "incomplete",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-bb1c0f41ab7d727d",
+      "name": "Male / Standard / Body011 / Hair028",
+      "archetype": "Male",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "11023d7edd5c75898e91",
+        "cb588cb3fedc304eb1fb",
+        "272a131269096342570e"
+      ],
+      "bodyFamily": "Body011",
+      "hairFamily": "Hair028",
+      "bodyAssetIds": [
+        "asset-42868acd87d31c9ab9fe"
+      ],
+      "hairAssetIds": [
+        "asset-95bcc09758bfd939abd8"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-5594681a2e84e315",
+      "name": "Male / Standard / Body011 / Hair030",
+      "archetype": "Male",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "0f047ebadea232db4660",
+        "fd74a28b1a891e8b400b"
+      ],
+      "bodyFamily": "Body011",
+      "hairFamily": "Hair030",
+      "bodyAssetIds": [
+        "asset-42868acd87d31c9ab9fe"
+      ],
+      "hairAssetIds": [
+        "asset-7159fb25e968eb46f8d2"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-721311310b32a3b0",
+      "name": "MuscleMan / Standard / Body008 / Hair009",
+      "archetype": "MuscleMan",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "a69666ee35a6523b422a"
+      ],
+      "bodyFamily": "Body008",
+      "hairFamily": "Hair009",
+      "bodyAssetIds": [
+        "asset-f4e5f9919ec18aad25f8"
+      ],
+      "hairAssetIds": [
+        "asset-58fe398b71e0d725c043"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-bce9f362b2386f4f",
+      "name": "MuscleMan / Standard / Body008 / Hair010",
+      "archetype": "MuscleMan",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "181b90b84183dae35fd0",
+        "4af2ab924a17719dff2c"
+      ],
+      "bodyFamily": "Body008",
+      "hairFamily": "Hair010",
+      "bodyAssetIds": [
+        "asset-f4e5f9919ec18aad25f8"
+      ],
+      "hairAssetIds": [
+        "asset-02f86dcbf863cd48d768"
+      ],
+      "missingParts": [],
+      "status": "candidate",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "preset-62eca60078ed2dac",
+      "name": "MuscleMan / Standard / Body008 / Hair013",
+      "archetype": "MuscleMan",
+      "buildVariant": "Standard",
+      "sourceMeshIds": [
+        "8edfd01ab4a4169cc1a1"
+      ],
+      "bodyFamily": "Body008",
+      "hairFamily": "Hair013",
+      "bodyAssetIds": [
+        "asset-f4e5f9919ec18aad25f8"
+      ],
+      "hairAssetIds": [],
+      "missingParts": [
+        "Hair013_Standard"
+      ],
+      "status": "incomplete",
+      "completeCharacter": false,
+      "evidence": [
+        "Combinación extraída de nombres de archivos realmente encontrados",
+        "Cara y accesorios mencionados en el nombre no se consideran resueltos automáticamente; no es un preset listo para exportar"
+      ]
+    },
+    {
+      "id": "assembly-4b86504cb0228c67",
+      "name": "Amber / Alternate",
+      "displayName": "Amber · Atuendo alternativo",
+      "outfitLabel": "Atuendo alternativo",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "be09b90eb26efaa5ed1f",
+        "9ee4188b9afe77ddfc5b",
+        "d092fbaae275cf34cff1",
+        "1c27d31cd13ce4d32c0c",
+        "fc4ef2244b58b441e3bd"
+      ],
+      "bodyFamily": "Amber",
+      "hairFamily": "Amber",
+      "bodyAssetIds": [
+        "asset-5a8a3b92d065c5787199"
+      ],
+      "hairAssetIds": [
+        "asset-15d4eb5a3c729053bfa0"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-2e6eae72150c1545",
+      "name": "Amber / Default",
+      "displayName": "Amber",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "149420ec53f9b5a3473a",
+        "ff35fe12844b73d273b2",
+        "f7b5f2c90ef5777967de",
+        "35c2c8cfb168e06b42af",
+        "e4e9541a5fd23d076efd"
+      ],
+      "bodyFamily": "Amber",
+      "hairFamily": "Amber",
+      "bodyAssetIds": [
+        "asset-d63111c75a667bd3dbf1"
+      ],
+      "hairAssetIds": [
+        "asset-091f502abd9583770ea8"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-d8a3a403f9a264da",
+      "name": "Barbara / Default",
+      "displayName": "Barbara",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "ee232fbd2c3d74df0512",
+        "b4f2d02be552c0545519",
+        "e48527223134b134b951",
+        "3675e93cbd09d7bced42",
+        "bac617d180b7456007ae"
+      ],
+      "bodyFamily": "Barbara",
+      "hairFamily": "Barbara",
+      "bodyAssetIds": [
+        "asset-5e509041d51b869fafde"
+      ],
+      "hairAssetIds": [
+        "asset-8b6d00d1beda9472a8a4"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-15f4e8d14ae79853",
+      "name": "Barbara / Summer",
+      "displayName": "Barbara · Verano",
+      "outfitLabel": "Verano",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "9518fcdf1eb7078b1cbf",
+        "924358b005257e5f1375",
+        "6f07972da1430d168466",
+        "0dfb4b21cae174f871f4",
+        "77656e190f79db714bef"
+      ],
+      "bodyFamily": "Barbara",
+      "hairFamily": "Barbara",
+      "bodyAssetIds": [
+        "asset-747e1e713ef8c33d269f"
+      ],
+      "hairAssetIds": [
+        "asset-c28296fec68f931b50ea"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-64d71f3038ef8e71",
+      "name": "Bennett / Default",
+      "displayName": "Bennett",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Boy",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "6ffea86ee9b8b02c92f1",
+        "4f0c59359a07213028d3",
+        "9511a4aea222d4b3ec1f",
+        "815e223f4485752f419d",
+        "5314c104e18f05114e4f"
+      ],
+      "bodyFamily": "Bennett",
+      "hairFamily": "Bennett",
+      "bodyAssetIds": [
+        "asset-b46c36cf8e9a431b85f8"
+      ],
+      "hairAssetIds": [
+        "asset-02116c3895e45f1d5d55"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-5a07f0e6e59d0fe9",
+      "name": "Diluc / Default",
+      "displayName": "Diluc",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Male",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "b5cd051bf8aff53039ad",
+        "dda3892a2a54e823b836",
+        "1c6fee2902053bf397ec",
+        "edd14a1dec602ad0f589",
+        "7ab8001ff69eea2e36ae"
+      ],
+      "bodyFamily": "Diluc",
+      "hairFamily": "Diluc",
+      "bodyAssetIds": [
+        "asset-4b4afa8bf48bbf3173ab"
+      ],
+      "hairAssetIds": [
+        "asset-642f2e8a2e066803e340"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-4934d9330bb0dee9",
+      "name": "Fischl / Default",
+      "displayName": "Fischl",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "5991529376755695cb76",
+        "3d22ba0e70291d7fd7ed",
+        "33f825cfcd81f5f3eb94",
+        "f833e454b47f488e0a82",
+        "1b48cc07a3bd902c033e"
+      ],
+      "bodyFamily": "Fischl",
+      "hairFamily": "Fischl",
+      "bodyAssetIds": [
+        "asset-92cf34c6e17aeb576df8"
+      ],
+      "hairAssetIds": [
+        "asset-3a046bb2aef15c4c4bc8"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-da2c1716a2550b2f",
+      "name": "Jean / Default",
+      "displayName": "Jean",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Lady",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "725eaa435b1a4e2f5bdb",
+        "a11e97210acfaea59944",
+        "84608ac07b41e56449c7",
+        "bd5b8f95153abf4694c1",
+        "fe7e3fab797935f37db3"
+      ],
+      "bodyFamily": "Jean",
+      "hairFamily": "Jean",
+      "bodyAssetIds": [
+        "asset-c78fd297198d6ebe9f66"
+      ],
+      "hairAssetIds": [
+        "asset-12af299480c27bd63d26"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-cb55ad134f664cb5",
+      "name": "Kaeya / Default",
+      "displayName": "Kaeya",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Male",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "679057771b27329621a1",
+        "bb093707acdb8bf42203",
+        "b4785f4a943a3cfb00ae",
+        "b2ea76082f3d60ede47c",
+        "b778e3303601cf4fd6db"
+      ],
+      "bodyFamily": "Kaeya",
+      "hairFamily": "Kaeya",
+      "bodyAssetIds": [
+        "asset-37b37ca0cc6424a4ea29"
+      ],
+      "hairAssetIds": [
+        "asset-fcad0d99ed1ec2cbaf1f"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-59d6f38849fd0f5e",
+      "name": "Keqing / Default",
+      "displayName": "Keqing",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "4ea95c5ca0e2ac3ac1a1",
+        "94c04339e581934dd1ac",
+        "e23585e2e199530b6df2",
+        "2e6bd429a0f35e54b4fa",
+        "5b8c29c11036b126ee7f"
+      ],
+      "bodyFamily": "Keqing",
+      "hairFamily": "Keqing",
+      "bodyAssetIds": [
+        "asset-714eef459131b3d8b45c"
+      ],
+      "hairAssetIds": [
+        "asset-5ef25d89a89b73d9686b"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-0b724215a5afb722",
+      "name": "Lisa / Default",
+      "displayName": "Lisa",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Lady",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "d1ec4405096a8c77e9bb",
+        "67841680a30a26d2de17",
+        "9344e46693c8efc03e39",
+        "743b67da8c4b61e38502",
+        "bda49f612b6a8c398098"
+      ],
+      "bodyFamily": "Lisa",
+      "hairFamily": "Lisa",
+      "bodyAssetIds": [
+        "asset-11eb1f29dc8afd71fe89"
+      ],
+      "hairAssetIds": [
+        "asset-731882c4472783de3615"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-4f133736a71fc455",
+      "name": "Mona / Default",
+      "displayName": "Mona",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "09a10d0244fb496c08ca",
+        "0962927cf6bd2bd16b1e",
+        "79b1f9bfd896a6553a14",
+        "a6feb275524771d4e4f7",
+        "63a920fd9785be3b3cec"
+      ],
+      "bodyFamily": "Mona",
+      "hairFamily": "Mona",
+      "bodyAssetIds": [
+        "asset-baa5a31f65c27cd9d8bc"
+      ],
+      "hairAssetIds": [
+        "asset-9c74b19c0f46558479df"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-7a20b03df7967819",
+      "name": "Noelle / Default",
+      "displayName": "Noelle",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "2c608379a4e19090e6a8",
+        "5eeb12f880b9f0a14adb",
+        "9f96ffebb7864554eb82",
+        "70dda5400e46802fabbb",
+        "4b54c69f2c905311b348"
+      ],
+      "bodyFamily": "Noelle",
+      "hairFamily": "Noelle",
+      "bodyAssetIds": [
+        "asset-8165138181df64e2e5c1"
+      ],
+      "hairAssetIds": [
+        "asset-8813d4b5d0427cccb407"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-a8a45f0fa7dff01e",
+      "name": "Razor / Default",
+      "displayName": "Razor",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Boy",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "64e94cecbf76d6a6080b",
+        "65109b9668dd4f145dd9",
+        "0fa3f9b43598e89ac337",
+        "de489563450f5d5a792b",
+        "7b4e46889f850344291c"
+      ],
+      "bodyFamily": "Razor",
+      "hairFamily": "Razor",
+      "bodyAssetIds": [
+        "asset-1b7524276dd82596a48e"
+      ],
+      "hairAssetIds": [
+        "asset-7b1c9aadcfacebb404b0"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-05f903f48cf23395",
+      "name": "Sucrose / Default",
+      "displayName": "Sucrose",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "3a71768bccfe30caed5b",
+        "8cf06d8c4d6f9bb03ec5",
+        "deab8fe2f58e3af7f0f6",
+        "9b848f9db3223898cb10",
+        "50bbde8d2cae12707ff7"
+      ],
+      "bodyFamily": "Sucrose",
+      "hairFamily": "Sucrose",
+      "bodyAssetIds": [
+        "asset-075132df5ffb253f2854"
+      ],
+      "hairAssetIds": [
+        "asset-b34d44a15e39425f4419"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    },
+    {
+      "id": "assembly-bb1042899b4c6b07",
+      "name": "Xiangling / Default",
+      "displayName": "Xiangling",
+      "outfitLabel": "Atuendo original",
+      "archetype": "Girl",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "9d34683e9be06a942d99",
+        "98247357759cc95604a4",
+        "ba41c97f2d52ab4796ac",
+        "bde686fdec5a2aafdc8d",
+        "6e12d45b36887a1de0fc"
+      ],
+      "bodyFamily": "Xiangling",
+      "hairFamily": "Xiangling",
+      "bodyAssetIds": [
+        "asset-27cfe458ef249ac01e44"
+      ],
+      "hairAssetIds": [
+        "asset-3928b1b529ad6df0ea90"
+      ],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
+      ]
+    }
+  ]
+}

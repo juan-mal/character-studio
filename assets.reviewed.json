@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "residualRules": [
+    {
+      "id": "girl-standard-body002-original-head",
+      "match": {
+        "archetype": "Girl",
+        "buildVariant": "Standard",
+        "bodyFamily": "Body002",
+        "hairFamilies": [
+          "Hair205",
+          "Hair210",
+          "Hair213"
+        ]
+      },
+      "expected": {
+        "sourceCount": 3,
+        "triangleCount": 1952,
+        "layoutSignature": "63c49284cf50467c3603c16e4d6eef5698efa9a464154efcc7c69d8374920037",
+        "sourceHashes": [
+          "0bf32f4544e09595a8124ca510228fad59588fae7461f49393bd27e0b3a7ef34",
+          "1f8a1f19ff40eb19a168c2334e1ae4c8345a6b3b6911e4fb48fb7a494086fb91",
+          "489ebee65800061bfb3fdd46c3564b58c89c075eb1772af4497df1da7a4b3c24"
+        ]
+      },
+      "output": {
+        "displayName": "Cabeza original Girl",
+        "meshName": "Face_Derived_Girl_Standard_Body002",
+        "family": "DerivedGirlOriginalHead",
+        "relativePath": "src/generated/meshes/girl-standard-body002-original-head.obj"
+      },
+      "review": {
+        "reviewedAt": "2026-09-21",
+        "method": "Sustracción de triángulos Body002_Standard y Hair205/210/213_Standard de sus tres MergedMeshLod0 y comparación exacta del residual",
+        "evidence": [
+          "Cada cuerpo y pelo tiene 100% de sus posiciones y triángulos contenidos en su merged; el residual ocupa la región de cabeza en coordenadas originales.",
+          "El residual mantiene los mismos 1952 triángulos, posiciones, UV, normales y orientación entre las tres fuentes independientes, sin redondear el hash de comparación.",
+          "Ninguna malla Face individual coincide con los triángulos residuales en coordenadas originales; no se asigna Face001 ni otra cara por número.",
+          "Body002 conserva ojos integrados: 144 triángulos utilizan la región de iris del atlas, con bounds x±0.052899, y1.389510–1.418249, z0.091533–0.099143.",
+          "La recuperación geométrica no demuestra rig, intercambiabilidad de ojos ni asociación del material original."
+        ]
+      }
+    }
+  ],
+  "textureRules": [
+    {
+      "id": "body002-girl-vila-druzhna02-color",
+      "mesh": {
+        "name": "Body002_Standard",
+        "sha256": "8187a0f8b5a141774636889213bf780788af5dfcf13b66ccb2bc6a1613b9b03e"
+      },
+      "image": {
+        "name": "NPC_Girl_Body002_Vila_Druzhna02_01_Tex_Diffuse",
+        "sha256": "db6543360f6577f1c546c55002bfbbbf68eb206880dbbf6a5eeed7b7bcc8cdd2"
+      },
+      "variantName": "Vila Druzhna · verde",
+      "role": "diffuse",
+      "review": {
+        "reviewedAt": "2026-09-21",
+        "method": "Revisión visual de atlas sobre UV originales mediante rasterización ortográfica frontal, lateral 65° y posterior",
+        "evidence": [
+          "Bordes de chaqueta, cinturón, mangas, guantes, botas, orejas e iris coinciden con sus islas UV y superficies en las tres vistas.",
+          "Ojos integrados en Body002: 144 triángulos usan los iris del atlas (0.40<u<0.59, v<0.10); bounds originales x±0.052899, y1.389510–1.418249, z0.091533–0.099143. No hay pieza de ojos independiente demostrada.",
+          "Confirmación de aplicación visual de esta imagen exacta; el material original y su shader no se conocen.",
+          "Sólo se revisa Diffuse. Vila_Druzhna01_01 aporta un Lightmap que no es una segunda variante de color."
+        ],
+        "artifacts": [
+          "reports/inspection/review-NPC_Girl_Hair210_01_Tex_Diffuse.png",
+          "reports/inspection/body002-integrated-eye-geometry.png"
+        ]
+      }
+    },
+    {
+      "id": "original-girl-head-face004-color",
+      "mesh": {
+        "name": "Face_Derived_Girl_Standard_Body002",
+        "sha256": "c1806e48432ab2cd625f78ab81c81a68df6989f0f0189665adcd5dcdb631dd7f"
+      },
+      "image": {
+        "name": "NPC_Girl_Face004_02_Tex_Diffuse",
+        "sha256": "3258a5537c84c937213548cd786794393085f01390c61400f1dcd5f684223ee9"
+      },
+      "variantName": "Rostro Girl · revisión UV",
+      "role": "diffuse",
+      "review": {
+        "reviewedAt": "2026-09-21",
+        "method": "Revisión visual de textura sobre el residual original, sin modificar UV, frontal y lateral 65°",
+        "evidence": [
+          "Boca, nariz, contornos de ojos y cejas caen en sus superficies correspondientes al aplicar la imagen al residual; la piel se une visualmente a cuello y orejas del cuerpo.",
+          "La revisión confirma aplicación visual de textura al residual, no la compatibilidad geométrica de la malla separada Face004.",
+          "Los iris pertenecen al cuerpo; este mapa facial no habilita ojos intercambiables ni tintado."
+        ],
+        "artifacts": [
+          "reports/inspection/body002-hair210-head-candidate.png",
+          "reports/inspection/review-NPC_Girl_Hair213_Tex_Diffuse.png"
+        ]
+      }
+    },
+    {
+      "id": "hair210-girl-white-color",
+      "mesh": {
+        "name": "Hair210_Standard",
+        "sha256": "2fb69c78c5fac7db6fec7abf42f0c79cb1342230c3fe0629eef4d2c59b82cf64"
+      },
+      "image": {
+        "name": "NPC_Girl_Hair210_01_Tex_Diffuse",
+        "sha256": "34282c0b0ccabdab5ad6e7f6797470c336cc5d6070fe9e77ee336f87352d854e"
+      },
+      "variantName": "Hair210 · blanco",
+      "role": "diffuse",
+      "review": {
+        "reviewedAt": "2026-09-21",
+        "method": "Revisión visual de atlas sobre UV originales: frente, lateral 65° y espalda",
+        "evidence": [
+          "Mechones frontales, trenza lateral y separación posterior coinciden con sus islas UV; los detalles pintados siguen las superficies en las tres vistas.",
+          "Variante real de imagen blanca; no se aplica tintado ni se interpreta Lightmap como PBR."
+        ],
+        "artifacts": [
+          "reports/inspection/review-NPC_Girl_Hair210_01_Tex_Diffuse.png"
+        ]
+      }
+    },
+    {
+      "id": "hair210-girl-blonde-color",
+      "mesh": {
+        "name": "Hair210_Standard",
+        "sha256": "2fb69c78c5fac7db6fec7abf42f0c79cb1342230c3fe0629eef4d2c59b82cf64"
+      },
+      "image": {
+        "name": "NPC_Girl_Hair210_02_Tex_Diffuse",
+        "sha256": "e4721e1223c588f38c9d613af6de3947ba740d14242068b2438ee3132f252875"
+      },
+      "variantName": "Hair210 · rubio",
+      "role": "diffuse",
+      "review": {
+        "reviewedAt": "2026-09-21",
+        "method": "Revisión visual de atlas sobre UV originales: frente, lateral 65° y espalda",
+        "evidence": [
+          "La variante rubia conserva el layout de mechones, trenza lateral y espalda; cada detalle coincide con la misma malla sin cambiar UV.",
+          "Cambio de color mediante la imagen original NPC_Girl_Hair210_02; no se habilita tintable."
+        ],
+        "artifacts": [
+          "reports/inspection/review-NPC_Girl_Hair210_02_Tex_Diffuse.png"
+        ]
+      }
+    },
+    {
+      "id": "hair213-girl-white-color",
+      "mesh": {
+        "name": "Hair213_Standard",
+        "sha256": "4c5cf43420829d9b3f511f74e24c0b8f7a6ee34482d3117ef29667b9ee9f1f54"
+      },
+      "image": {
+        "name": "NPC_Girl_Hair213_Tex_Diffuse",
+        "sha256": "4c00ea87b3fbd5b84ebbb3b92510369ba6b0e9c949d151199a35609b8eedffff"
+      },
+      "variantName": "Hair213 · blanco",
+      "role": "diffuse",
+      "review": {
+        "reviewedAt": "2026-09-21",
+        "method": "Revisión visual de atlas sobre UV originales: frente, lateral 65° y espalda",
+        "evidence": [
+          "Partición central, mechones laterales, recogido y ondas de la coleta coinciden con sus islas UV y siguen la geometría en las tres vistas.",
+          "Sólo Diffuse queda revisado; Lightmap y tintado conservan su estado sin demostrar."
+        ],
+        "artifacts": [
+          "reports/inspection/review-NPC_Girl_Hair213_Tex_Diffuse.png"
+        ]
+      }
+    }
+  ],
+  "assetRules": [
+    {
+      "id": "render-side-asset-61182fd90aed5eb7a89a",
+      "mesh": {
+        "name": "Body002_Standard",
+        "sha256": "8187a0f8b5a141774636889213bf780788af5dfcf13b66ccb2bc6a1613b9b03e"
+      },
+      "renderSide": "double",
+      "review": {
+        "method": "Comparación de rasterización FrontSide/DoubleSide en personaje montado, vistas frontal, posterior e inferior oblicua",
+        "evidence": [
+          "Malla abierta con 168 vértices de borde; suprimir reversos cambia píxeles visibles.",
+          "Canales con diferencia >5/255 según preset: 159, 202, 140.",
+          "Evidencia reproducible: tests/e2e/audit-runtime.ts y reports/audit/runtime.json. No modifica transparencia ni geometría."
+        ]
+      },
+      "shading": "anime-static"
+    },
+    {
+      "id": "render-side-asset-2da96966ffba09109ad5",
+      "mesh": {
+        "name": "Hair205_Standard",
+        "sha256": "83ea7eb5f50881f917fd91d8c6d70b47083375c7c03301518bdeb734b1db5d01"
+      },
+      "renderSide": "double",
+      "review": {
+        "method": "Comparación de rasterización FrontSide/DoubleSide en personaje montado, vistas frontal, posterior e inferior oblicua",
+        "evidence": [
+          "Malla abierta con 19 vértices de borde; suprimir reversos cambia píxeles visibles.",
+          "Canales con diferencia >5/255 según preset: 27.",
+          "Evidencia reproducible: tests/e2e/audit-runtime.ts y reports/audit/runtime.json. No modifica transparencia ni geometría."
+        ]
+      },
+      "shading": "anime-static"
+    },
+    {
+      "id": "render-side-asset-5c90530463083b1de250",
+      "mesh": {
+        "name": "Face_Derived_Girl_Standard_Body002",
+        "sha256": "c1806e48432ab2cd625f78ab81c81a68df6989f0f0189665adcd5dcdb631dd7f"
+      },
+      "renderSide": "double",
+      "review": {
+        "method": "Comparación de rasterización FrontSide/DoubleSide en personaje montado, vistas frontal, posterior e inferior oblicua",
+        "evidence": [
+          "Malla abierta con 184 vértices de borde; suprimir reversos cambia píxeles visibles.",
+          "Canales con diferencia >5/255 según preset: 10, 0, 12.",
+          "Evidencia reproducible: tests/e2e/audit-runtime.ts y reports/audit/runtime.json. No modifica transparencia ni geometría."
+        ]
+      },
+      "shading": "anime-static"
+    },
+    {
+      "id": "render-side-asset-24285025842a3ebc56f3",
+      "mesh": {
+        "name": "Hair210_Standard",
+        "sha256": "2fb69c78c5fac7db6fec7abf42f0c79cb1342230c3fe0629eef4d2c59b82cf64"
+      },
+      "renderSide": "double",
+      "review": {
+        "method": "Comparación de rasterización FrontSide/DoubleSide en personaje montado, vistas frontal, posterior e inferior oblicua",
+        "evidence": [
+          "Malla abierta con 116 vértices de borde; suprimir reversos cambia píxeles visibles.",
+          "Canales con diferencia >5/255 según preset: 51.",
+          "Evidencia reproducible: tests/e2e/audit-runtime.ts y reports/audit/runtime.json. No modifica transparencia ni geometría."
+        ]
+      },
+      "shading": "anime-static"
+    },
+    {
+      "id": "render-side-asset-f05d737e9560a6c67351",
+      "mesh": {
+        "name": "Hair213_Standard",
+        "sha256": "4c5cf43420829d9b3f511f74e24c0b8f7a6ee34482d3117ef29667b9ee9f1f54"
+      },
+      "renderSide": "double",
+      "review": {
+        "method": "Comparación de rasterización FrontSide/DoubleSide en personaje montado, vistas frontal, posterior e inferior oblicua",
+        "evidence": [
+          "Malla abierta con 80 vértices de borde; suprimir reversos cambia píxeles visibles.",
+          "Canales con diferencia >5/255 según preset: 66.",
+          "Evidencia reproducible: tests/e2e/audit-runtime.ts y reports/audit/runtime.json. No modifica transparencia ni geometría."
+        ]
+      },
+      "shading": "anime-static"
+    }
+  ]
+}

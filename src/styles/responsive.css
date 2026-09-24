@@ -1,0 +1,309 @@
+@media (min-width: 1600px) {
+  .studio-app .studio-layout {
+    grid-template-columns: 112px minmax(0, 1fr) 380px;
+  }
+  .studio-app .three-container {
+    inset: 65px 35px 90px;
+  }
+  .studio-app .panel-heading {
+    padding: 32px 28px 25px;
+  }
+  .studio-app .panel-scroll {
+    padding: 28px;
+  }
+}
+@media (max-width: 1100px) {
+  .studio-app .studio-layout {
+    grid-template-columns: 82px minmax(0, 1fr) 310px;
+  }
+  .studio-app .app-header {
+    padding: 0 18px;
+  }
+  .studio-app .document-name {
+    display: none;
+  }
+  .studio-app .panel-heading {
+    padding: 24px 21px 20px;
+  }
+  .studio-app .panel-scroll {
+    padding: 21px;
+  }
+  .studio-app .viewport-topline {
+    left: 23px;
+    right: 20px;
+  }
+  .studio-app .viewport-bottomline {
+    left: 22px;
+    right: 18px;
+  }
+  .studio-app .gesture-hint {
+    display: none;
+  }
+  .studio-app .view-tools {
+    gap: 0;
+  }
+  .studio-app .view-tools .button {
+    font-size: 10px;
+    padding: 7px 8px;
+  }
+}
+@media (max-width: 800px) {
+  .studio-app .studio-layout {
+    grid-template-columns: 70px minmax(0, 1fr) 270px;
+  }
+  .studio-app .sidebar {
+    padding: 20px 7px 10px;
+  }
+  .studio-app .nav-item {
+    font-size: 10px;
+    min-height: 59px;
+  }
+  .studio-app .panel-scroll {
+    padding: 18px;
+  }
+  .studio-app .panel-heading {
+    padding: 22px 18px 18px;
+  }
+  .studio-app .asset-grid {
+    gap: 15px 10px;
+  }
+  .studio-app .view-tools .button:last-child {
+    display: none;
+  }
+  .studio-app .history-controls .button {
+    min-width: 26px;
+    padding: 5px;
+  }
+  .studio-app .reset-button span {
+    display: none;
+  }
+  .studio-app .header-actions {
+    gap: 5px;
+  }
+  .studio-app .brand {
+    font-size: 15px;
+  }
+  .studio-app .button {
+    font-size: 11px;
+  }
+  .studio-app .recovery-banner > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+  }
+}
+@media (max-width: 650px) {
+  .studio-app {
+    height: 100dvh !important;
+    min-height: 650px !important;
+  }
+  .studio-app .app-header {
+    height: 58px;
+    min-height: 58px;
+    padding: 0 13px;
+    gap: 6px;
+  }
+  .studio-app .brand {
+    font-size: 13px;
+    gap: 7px;
+  }
+  .studio-app .brand-mark {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+  }
+  .studio-app .save-button span,
+  .studio-app .reset-button span {
+    display: none;
+  }
+  .studio-app .reset-button {
+    padding: 6px;
+    min-width: 28px;
+  }
+  .studio-app .save-button {
+    padding: 8px;
+  }
+  .studio-app .button--primary {
+    font-size: 10px;
+    padding: 9px;
+  }
+  .studio-app .header-actions {
+    gap: 2px;
+  }
+  .studio-app .header-actions > .button--primary svg {
+    width: 14px;
+  }
+  .studio-app .studio-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 56px minmax(270px, 1fr) minmax(220px, 34dvh);
+  }
+  .studio-app .sidebar {
+    padding: 5px 10px;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .studio-app .sidebar-caption {
+    display: none;
+  }
+  .studio-app .sidebar nav {
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  .studio-app .nav-item {
+    flex-direction: row;
+    gap: 7px;
+    min-height: 44px;
+    padding: 8px 12px;
+    font-size: 10px;
+    flex-shrink: 0;
+  }
+  .studio-app .nav-item svg {
+    width: 16px;
+  }
+  .studio-app .viewport-topline {
+    top: 16px;
+    left: 18px;
+    right: 16px;
+  }
+  .studio-app .three-container {
+    inset: 32px 0 36px;
+  }
+  .studio-app .viewport-bottomline {
+    bottom: 12px;
+    left: 17px;
+    font-size: 10px;
+  }
+  .studio-app .view-tools {
+    bottom: 33px;
+    left: auto;
+    right: 12px;
+    transform: none;
+    padding: 3px;
+    gap: 0;
+  }
+  .studio-app .view-tools .button {
+    font-size: 10px;
+    min-height: 26px;
+    padding: 4px 7px;
+  }
+  .studio-app .view-tools .button--surface span {
+    display: none;
+  }
+  .studio-app .tool-separator {
+    display: none;
+  }
+  .studio-app .view-tools svg {
+    width: 14px;
+  }
+  .studio-app .options-panel {
+    border-left: 0;
+    border-top: 1px solid var(--border);
+    border-radius: 14px 14px 0 0;
+  }
+  .studio-app .panel-heading {
+    padding: 15px 18px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .studio-app .panel-heading .eyebrow,
+  .studio-app .panel-heading p {
+    display: none;
+  }
+  .studio-app .panel-title {
+    margin: 0;
+  }
+  .studio-app .panel-title h1 {
+    font-size: 18px;
+  }
+  .studio-app .panel-scroll {
+    padding: 14px 18px;
+  }
+  .studio-app .asset-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px 13px;
+  }
+  .studio-app .asset-card__image {
+    aspect-ratio: 1/1.01;
+    max-height: 110px;
+  }
+  .studio-app .asset-placeholder svg {
+    height: 28px;
+  }
+  .studio-app .asset-placeholder {
+    gap: 6px;
+  }
+  .studio-app .asset-placeholder span {
+    font-size: 10px;
+  }
+  .studio-app .asset-card__title {
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  .studio-app .asset-card__subtitle {
+    font-size: 10px;
+  }
+  .studio-app .card-badge {
+    font-size: 10px;
+    bottom: 5px;
+    left: 5px;
+    padding: 2px 4px;
+  }
+  .studio-app .panel-footer {
+    padding: 9px;
+    font-size: 10px;
+  }
+  .studio-app .import-card {
+    padding: 16px;
+    gap: 7px;
+    margin-top: 20px;
+  }
+  .studio-app .import-card p {
+    display: none;
+  }
+  .studio-app .viewport-notices {
+    top: 60px;
+    left: 13px;
+    right: 13px;
+  }
+  .studio-app .notice {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .studio-app .loading-state {
+    bottom: 70px;
+    font-size: 10px;
+  }
+  .studio-app .recovery-banner {
+    padding: 10px 13px;
+    font-size: 10px;
+    gap: 8px;
+  }
+  .studio-app .recovery-banner .button {
+    font-size: 10px;
+    padding: 6px;
+  }
+  .studio-app .debug-panel {
+    top: 80px;
+    max-width: 280px;
+    max-height: 55%;
+  }
+  .studio-app .selected-detail {
+    margin-top: 18px;
+    padding-top: 15px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
