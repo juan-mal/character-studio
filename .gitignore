@@ -10,4 +10,5 @@ playwright-report/
 # Local game assets and generated visual evidence never belong in the public source repository.
 content/characters/
 content/previews/
+content/neutral-npcs/
 reports/

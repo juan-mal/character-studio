@@ -910,6 +910,141 @@
       "evidence": [
         "Paquete local revisado; vestido y calzado integrados; exportación estática sin rig."
       ]
+    },
+    {
+      "id": "neutral-360f30874aad1592",
+      "name": "NPC Female · 01 · Neutral",
+      "displayName": "NPC Female · 01 · Neutral",
+      "archetype": "neutral-Body_NPC_Female_Size01.obj",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "b51d9e6426018e74df57"
+      ],
+      "bodyFamily": "NPC Female · 01 · Neutral",
+      "hairFamily": null,
+      "bodyAssetIds": [
+        "asset-c5bc58c7d8c72437c96d"
+      ],
+      "hairAssetIds": [],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Single fixed mesh assembled from local body, clothing, face and hair in original coordinates.",
+        "No textures, rig or animation; modular swaps are intentionally unavailable.",
+        "NPC_Female_Size01_Body_001_LOD0.obj: SHA256 5f85731a0acffa7d6849de982129ff704a503faedf7883b175d82b8c53f63129",
+        "NPC_Female_Size01_Clothes_001_LOD0.obj: SHA256 d8173df6008d7390c7082905fb273c1a18a5a54cc8786bbe50765517f3d01886",
+        "NPC_Female_Size01_Face_001_LOD0.obj: SHA256 3da2b28b1668e7635f58003cd3c34bb819b40dcb90b2ea43b7ed44d2774c7006",
+        "NPC_Female_Size01_Hair_001_LOD0.obj: SHA256 0f09498edd3c95f1939665a15138a3137886d81d5ca3fe156558e287ac141739"
+      ]
+    },
+    {
+      "id": "neutral-88f4ee07e086c2c8",
+      "name": "NPC Female · 02 · Neutral",
+      "displayName": "NPC Female · 02 · Neutral",
+      "archetype": "neutral-Body_NPC_Female_Size02.obj",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "5adafbb6aa34932a7ff0"
+      ],
+      "bodyFamily": "NPC Female · 02 · Neutral",
+      "hairFamily": null,
+      "bodyAssetIds": [
+        "asset-c7a0a55f6cbd72f17614"
+      ],
+      "hairAssetIds": [],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Single fixed mesh assembled from local body, clothing, face and hair in original coordinates.",
+        "No textures, rig or animation; modular swaps are intentionally unavailable.",
+        "NPC_Female_Size02_Body_001_LOD0.obj: SHA256 0369b0371c29cb9f06b52c201492136116757433afed213afbd27d4ffc32026a",
+        "NPC_Female_Size02_Clothes_001_LOD0.obj: SHA256 5a7c5c3e059b1ada817f0ca0194c554e6b32619190cd8b1a3c53559c08264373",
+        "NPC_Female_Size02_Face_001_LOD0.obj: SHA256 2ff94ed355e3c93c33602384b2253c44912851e4500deba73a99543ff23a708e",
+        "NPC_Female_Size02_Hair_001_LOD0.obj: SHA256 5b26860188c32f89e9b8c5696ec5cad7c0deda030ded0165e255499594f7e923"
+      ]
+    },
+    {
+      "id": "neutral-dd146e79e446776f",
+      "name": "NPC Female · 03 · Neutral",
+      "displayName": "NPC Female · 03 · Neutral",
+      "archetype": "neutral-Body_NPC_Female_Size03.obj",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "1ac372e1c9adf65b84d8"
+      ],
+      "bodyFamily": "NPC Female · 03 · Neutral",
+      "hairFamily": null,
+      "bodyAssetIds": [
+        "asset-32ae8b48614cfcfd6aeb"
+      ],
+      "hairAssetIds": [],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Single fixed mesh assembled from local body, clothing, face and hair in original coordinates.",
+        "No textures, rig or animation; modular swaps are intentionally unavailable.",
+        "NPC_Female_Size03_Body_001_LOD0.obj: SHA256 c049d9e71370f596b1b5295c7edb21803b8140ba056899e1d84b3bdab1aad63f",
+        "NPC_Female_Size03_Clothes_001_LOD0.obj: SHA256 c8a190949242a027f0a7f6673d1a1d4e425345d40ca7025bf906a15015adeab6",
+        "NPC_Female_Size03_Face_001_LOD0.obj: SHA256 179a5f4852ab1880cc155edd3160ffbabeaba4c39f71487feef879eb8f8fb1d3",
+        "NPC_Female_Size03_Hair_001_LOD0.obj: SHA256 b72aac0b3de63dfe4fd0c6fdfedb7355997a6d8043bc07987f7e90b3bedc62b8"
+      ]
+    },
+    {
+      "id": "neutral-b5aabee51b90ddcb",
+      "name": "NPC Male · 01 · Neutral",
+      "displayName": "NPC Male · 01 · Neutral",
+      "archetype": "neutral-Body_NPC_Male_Size01.obj",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "d2a7706b6d5ae4885aba"
+      ],
+      "bodyFamily": "NPC Male · 01 · Neutral",
+      "hairFamily": null,
+      "bodyAssetIds": [
+        "asset-341dcd5352ffe0cfe478"
+      ],
+      "hairAssetIds": [],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Single fixed mesh assembled from local body, clothing, face and hair in original coordinates.",
+        "No textures, rig or animation; modular swaps are intentionally unavailable.",
+        "NPC_Male_Size01_Body_001_LOD0.obj: SHA256 1ffba3a5036701b8a79942047eb52cf9b8c795c4daf4916348df67b178f11785",
+        "NPC_Male_Size01_Clothes_001_LOD0.obj: SHA256 c39346a0ab874493a0e84f279e5a58eb1240c49afb18b8007d33f479f3d1d381",
+        "NPC_Male_Size01_Face_001_LOD0.obj: SHA256 be2f738c7733cfcf3365f5ba64cc541d064250267f2039c3489d2609ee7f55fb",
+        "NPC_Male_Size01_Hair_001_LOD0.obj: SHA256 889b89573ca35a98c33a8f3d868fc1143352dce8c70ed42df89bc1d75d481a93"
+      ]
+    },
+    {
+      "id": "neutral-6edd603008a2529e",
+      "name": "NPC Male · 02 · Neutral",
+      "displayName": "NPC Male · 02 · Neutral",
+      "archetype": "neutral-Body_NPC_Male_Size02.obj",
+      "buildVariant": null,
+      "sourceMeshIds": [
+        "e11c091fc30350ac3cdd"
+      ],
+      "bodyFamily": "NPC Male · 02 · Neutral",
+      "hairFamily": null,
+      "bodyAssetIds": [
+        "asset-8ce58f7d8af944eda990"
+      ],
+      "hairAssetIds": [],
+      "missingParts": [],
+      "status": "geometry-supported",
+      "completeCharacter": false,
+      "evidence": [
+        "Single fixed mesh assembled from local body, clothing, face and hair in original coordinates.",
+        "No textures, rig or animation; modular swaps are intentionally unavailable.",
+        "NPC_Male_Size02_Body_001_LOD0.obj: SHA256 740db3f332b01f49766adee6098a6d0311f4b957e4f98692e57a64a9ea14f30f",
+        "NPC_Male_Size02_Clothes_001_LOD0.obj: SHA256 e411ddaba3418661900278db9fd46e28521c7b3da609c4d0c82354ce36bd5a32",
+        "NPC_Male_Size02_Face_001_LOD0.obj: SHA256 86d127d6c0051fa737c33885598037c7526f4590e74cfe720ea5a17bc73768bd",
+        "NPC_Male_Size02_Hair_001_LOD0.obj: SHA256 85fb48444b1c547a114517f9b2c06803e94ebda8c6747d8725b3a4232ed41b55"
+      ]
     }
   ]
 }

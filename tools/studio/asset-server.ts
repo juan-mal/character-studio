@@ -78,6 +78,24 @@ export async function loadResourceManifest(
       throw new Error(`Asset fuera de su fuente: ${record.path}`);
     files.set(record.id, { record, absolutePath });
   }
+  // A removable source may disappear between scans. Do not offer a broken
+  // preset or copy absent files into a build; keep the generated inventory intact.
+  const resources = [...files.values()];
+  let cursor = 0;
+  await Promise.all(Array.from({ length: 8 }, async () => {
+    while (cursor < resources.length) {
+      const resource = resources[cursor++]!;
+      const exists = await stat(resource.absolutePath).then(info => info.isFile()).catch(() => false);
+      if (!exists) files.delete(resource.record.id);
+    }
+  }));
+  data.assets = data.assets.map(asset => ({
+    ...asset,
+    metadata: { ...asset.metadata, mainApplication: asset.metadata.mainApplication && files.has(asset.mesh.id) },
+    preview: asset.preview && files.has(asset.preview.imageId) ? asset.preview : null,
+    previewCandidates: asset.previewCandidates.filter(preview => files.has(preview.imageId)),
+    textureVariants: asset.textureVariants.filter(variant => Object.values(variant.maps).every(ids => ids?.every(id => files.has(id)))),
+  }));
   return { data, files };
 }
 export function isContained(root: string, file: string): boolean {

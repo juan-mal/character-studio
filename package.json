@@ -12,6 +12,7 @@
     "preview": "vite preview --host 127.0.0.1",
     "lint": "eslint src tools tests vite.config.ts",
     "assets:scan": "node tools/assets/scan.ts",
+    "assets:import-npcs": "node tools/content/import-neutral-npcs.ts",
     "assets:validate": "node tools/assets/validate.ts",
     "typecheck": "tsc --noEmit",
     "test": "node --test tests/*.test.ts",

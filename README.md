@@ -31,6 +31,16 @@ Open `http://127.0.0.1:5173`.
 
 ## Current enabled content
 
+The local catalog also includes five fixed **neutral NPC assemblies** (three female size families and two male size families). Select them in Presets. They have no textures and support whole-model tinting, JSON save/load, history, and GLB export. They are static assembled meshes; their components do not yet authorize interchangeable hair, face, or clothing options.
+
+To prepare this focused batch from a local exported Mesh folder without scanning the full collection:
+
+```sh
+pnpm assets:import-npcs "path/to/Mesh"
+```
+
+The importer reads only the explicitly selected body, clothing, face, and hair files. It creates copies under ignored `content/neutral-npcs`, records source fingerprints, and updates the generated catalog. All parts receive the same documented Z-up to Y-up rotation at scale 1. Unavailable source resources are omitted from the runtime selection and packaged build while their inventory remains preserved.
+
 The local reviewed catalog currently enables **19 presets and 17 body/outfit configurations**, including the initial NPC combinations and several reviewed character packages with alternate outfits. Packages retain their original texture atlases. Head swaps require geometry and visual review; outfits are selected through Presets or Body and are not yet independent clothing items.
 
 The catalog only exposes content with compatible, reviewed evidence. Items found by the scanner but lacking confirmation remain registered for future work without being shown as selectable combinations.

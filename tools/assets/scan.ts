@@ -1,4 +1,5 @@
 import { enrichAssemblies } from "./assemblies.ts";
+import { enrichNeutralNpcs } from './neutral-npcs.ts';
 import {enrichHeadMixes} from './headMixes.ts';
 import { lstat, mkdir, open, readFile, rename, unlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -69,6 +70,8 @@ export async function runScan(root: string, config: ScanConfig, log: (message: s
     const catalog: AssetCatalog = { schemaVersion: 1, sources: config.sources, assets, images, materials, relatedFiles };
     await enrichAssemblies(root, catalog, compatibility, presets, warnings);
     await enrichHeadMixes(root,catalog,compatibility,warnings);
+    await enrichNeutralNpcs(root, catalog, presets, warnings);
+    for (const asset of catalog.assets) if (!meshes.some(mesh => mesh.id === asset.mesh.id)) meshes.push(asset.mesh);
     const report = makeReport(catalog, meshes, compatibility, presets, warnings);
     const json = (value: unknown): string => JSON.stringify(value, null, 2) + '\n';
     await writeOutputs(root, {
